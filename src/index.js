@@ -24,10 +24,7 @@ if(str[i]=='|'&&(s.includes('|'))){
  
   s.pop();
 }
-else {
- 
-  return false;
-}
+
 }
 return s.length==0;
 }
