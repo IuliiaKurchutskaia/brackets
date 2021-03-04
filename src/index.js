@@ -1,5 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-  if(str.length%2!=0|| typeof str !== "string"){
+  if(str.length%2!=0|| typeof str !== "string"||!str.includes("(")||!str.includes("[")){
     return false;
   }
 
